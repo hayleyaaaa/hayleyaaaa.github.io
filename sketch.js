@@ -107,6 +107,8 @@ function onPose(poses) {
 function draw() {
   background(0);
   noStroke();
+  fill(255);
+  rect(50,50,100,100);
 
   let level = amplitude.getLevel();
   spectrum = fft.analyze();
